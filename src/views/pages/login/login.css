@@ -1,0 +1,69 @@
+
+.usuario2{
+    margin-left: -20%;
+     width: 140%;
+ }
+ 
+
+.Registrarse{
+    background-color: #1c7cD5;
+       /* margin-left: -2.7rem;
+       margin-right: 7.7rem; 
+       margin-top:-20%;
+       margin-bottom: 0.5rem;
+       padding: 1.5%;
+       width: 282%;
+       position: relative; 
+       z-index: 10; */
+       margin-top:-1.5rem;
+       margin-right: -1.5rem;
+       margin-left: -1.5rem;
+}
+
+.sesion1{
+    background-color: #1c7cD5;
+    color: white;
+    margin-right: -2.8rem;
+   
+       
+}
+
+.sesion{
+   text-align: center;
+}
+
+
+  #logo{
+    background-color: white;
+      padding-top: 5%; 
+    
+     margin-left: 10%;
+     width:40%;
+     position: relative; 
+     z-index: 5;
+    height: auto;
+
+}
+
+.contenedor{
+    display:flex;
+
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 2%;
+   
+    }
+
+    #Bombillo2{
+        /* background-color: darkred; */
+      color:#1c7cD5 ;
+        padding-left: -10%;
+        margin-left: -15%;
+        margin-top: 12%;
+    }
+
+    .principal{
+        display:flex;
+
+    }
+
