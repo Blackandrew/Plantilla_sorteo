@@ -36,12 +36,13 @@ const Dashboard = () => {
   return (
    
     <Fragment>
-
+     
 
   <CTabs activeTab="home">
 
       <CNav variant="tabs">
         <CNavItem>
+        
           <CNavLink data-tab="nuevo">
           Nuevo Sorteo
           </CNavLink>
@@ -51,20 +52,24 @@ const Dashboard = () => {
           Editar Sorteo
           </CNavLink>
         </CNavItem>
-       
+        
       </CNav>
+
       <CTabContent>
-        <CTabPane data-tab="nuevo">
-              <Nuevosorteo/>
+    
+        <CTabPane data-tab="nuevo"  className="tab">
+            <Nuevosorteo/>
         </CTabPane>
         <CTabPane data-tab="editar">
            <Editarsorteo/>
         </CTabPane>
        
       </CTabContent>
+
     </CTabs>
 
-    {/* <h1>DASHBOARD</h1> */}  
+   
+
     </Fragment>
   )
 }
