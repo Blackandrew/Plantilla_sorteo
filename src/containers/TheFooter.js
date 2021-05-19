@@ -5,8 +5,8 @@ const TheFooter = () => {
   return (
     <CFooter fixed={false}>
       <div>
-        <a href="https://sorteoweb.com" target="_blank" rel="noopener noreferrer">Sorteo Web</a>
-        <span className="ml-1">&copy; 2020 Sostesanic.</span>
+        <a href="https://sorteoweb.com" target="_blank" rel="noopener noreferrer">Punto Luz</a>
+        <span className="ml-1">&copy; 2021 AES.</span>
       </div>
       <div className="mfs-auto">
         <span className="mr-1">Powered by</span>

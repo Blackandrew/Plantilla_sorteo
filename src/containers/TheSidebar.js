@@ -15,25 +15,24 @@ import {
 // sidebar nav config
 import navigation from './_nav'
 
+import   '../views/menuform/form.css'
+
 const TheSidebar = () => {
   const dispatch = useDispatch()
   const show = useSelector(state => state.sidebarShow)
 
   return (
     <CSidebar
+    className="bg-white " 
       show={show}
       onShowChange={(val) => dispatch({type: 'set', sidebarShow: val})}
     >
-      <CSidebarBrand className="d-md-down-none" to="/dashboard">
-        {/*<CIcon*/}
-        {/*  className="c-sidebar-brand-full"*/}
-        {/*  name="logo-negative"*/}
-        {/*  height={35}*/}
-        {/*/>*/}
+      <CSidebarBrand className="d-md-down-none bg-white" to="/dashboard">
+     
         <CImg
        
-          src={'avatars/Lotería_Nacional.svg'}
-          name="Loteria_Nacional"
+          src={'avatars/logo_aes.png'}
+          name="logoaes"
           className="c-sidebar-brand-full"
           alt="logo"
           height={65}
@@ -46,27 +45,26 @@ const TheSidebar = () => {
           alt="logo"
           height={35}
         />
-        {/*<CIcon*/}
-        {/*  className="c-sidebar-brand-minimized"*/}
-        {/*  name="sygnet"*/}
-        {/*  height={35}*/}
-        {/*/>*/}
+     
       </CSidebarBrand>
-      <CSidebarNav>
 
-        <CCreateElement
+      <CSidebarNav  >
+              
+        <CCreateElement 
+          
           items={navigation}
-          components={{
-            CSidebarNavDivider,
-            // CSidebarNavDropdown,
-            CSidebarNavItem,
-           
-            //  CSidebarNavTitle
-          }}
+           components={{
+                CSidebarNavItem
+             }}
+            
         />
+          
       </CSidebarNav>
-      <CSidebarMinimizer className="c-d-md-down-none"/>
+      
+      <CSidebarMinimizer className="c-d-md-down-none "/>
     </CSidebar>
+
+    
   )
 }
 
