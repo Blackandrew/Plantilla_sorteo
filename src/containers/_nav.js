@@ -27,8 +27,8 @@ export default [
    name: 'Cuenta',
     to: '/pages/login',
     icon: 'cil-User',
-    color:'info'
- 
+    color:'info',
+    addLinkClass:'sdc'
   },
 
   {
@@ -37,7 +37,8 @@ export default [
      name: 'Cerrar Sesión',
     to: '/',
     color:'info',
-    icon: 'cil-x-circle'
+    icon: 'cil-x-circle',
+    addLinkClass:'sdi'
    
   }
 

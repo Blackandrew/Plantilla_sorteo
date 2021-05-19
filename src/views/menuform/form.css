@@ -3,7 +3,18 @@
 }
 
 
-.nv   {
-   margin-top: 10%;
+.sdi  {
+    position: absolute;
+    bottom: 0; 
+    left: 0%;
+    width: 100%;
+ 
+}
+
+.sdc  {
+    position: absolute;
+    bottom: 3rem; 
+    left: 0%;
+    width: 100%;
  
 }
